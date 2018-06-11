@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "33645263972",
+    "firebase_url": "https://shubhammobiles-9faba.firebaseio.com",
+    "project_id": "shubhammobiles-9faba",
+    "storage_bucket": "shubhammobiles-9faba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33645263972:android:bdfc02cd2634f983",
+        "android_client_info": {
+          "package_name": "com.shubhammobiles.shubhammobiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33645263972-b30i81dv5je63i7ao3sf1gg5lmml9dnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubhammobiles.shubhammobiles",
+            "certificate_hash": "604bd86bafafc88cf5f813dd703d2fa5ac33460b"
+          }
+        },
+        {
+          "client_id": "33645263972-crqakicl4gh7o66s85hgh4fc67pbcfff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2DcH1EsRaBTSKvfI0OZ33dsV3ZGa5sfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33645263972-crqakicl4gh7o66s85hgh4fc67pbcfff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

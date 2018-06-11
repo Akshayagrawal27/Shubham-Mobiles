@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stock_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:elevation="6dp"
+    android:paddingBottom="12dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="12dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tv_brand_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        tools:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_brand_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="272dp"
+        tools:text="total"
+        android:textColor="@color/value_green"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_brand_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_brand_name" />
+
+    <TextView
+        android:id="@+id/tv_brand_last_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="TextView"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/tv_brand_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_brand_name" />
+
+    <TextView
+        android:id="@+id/tv_brand_shared_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Shared By: "
+        app:layout_constraintStart_toStartOf="@+id/tv_brand_last_update"
+        app:layout_constraintTop_toBottomOf="@+id/tv_brand_last_update"
+        android:visibility="gone"/>
+
+</android.support.constraint.ConstraintLayout>

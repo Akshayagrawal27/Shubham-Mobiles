@@ -1,0 +1,134 @@
+<resources>
+
+    <string name="app_name">Shubham Mobiles</string>
+    <string name="remove_item_option">Remove Item</string>
+    <string name="positive_button_create">Create</string>
+
+    <!-- Menu Strings -->
+    <string name="action_logout">Logout</string>
+
+    <!-- Dialog Hints-->
+    <string name="hint_add_brand_name">Enter Brand Name</string>
+    <string name="hint_add_model_name">Enter Model Name</string>
+    <string name="hint_add_variant_name">Add Variant</string>
+    <string name="hint_add_quantity">Add Quantity</string>
+    <string name="hint_add_name">Name</string>
+    <string name="hint_add_address">Address</string>
+    <string name="hint_add_contact_number">Contact Number</string>
+    <string name="hint_type_here">Type Here</string>
+    <string name="hint_order_detail_date">Date</string>
+    <string name="hint_order_detail_bill_number">Bill Number</string>
+    <string name="hint_order_detail_customer_name">Customer Name</string>
+    <string name="hint_order_detail_customer_address">Customer Address</string>
+    <string name="hint_order_detail_phone_number">Customer Phone Number</string>
+    <string name="hint_order_detail_model">Model</string>
+    <string name="hint_order_detail_variant">Variant</string>
+    <string name="hint_order_detail_quantity">Quantity</string>
+    <string name="hint_order_detail_total_amount">Total Amount</string>
+    <string name="hint_order_detail_advance">Advance</string>
+    <string name="hint_order_detail_delivery_date">Delivery Date</string>
+
+    <!-- Login and Create Account Screen  -->
+
+    <!-- Errors -->
+    <string name="error_cannot_be_empty">This cannot be empty</string>
+    <string name="error_invalid_number">Invalid Number</string>
+    <string name="error_not_a_valid_name">Not a Valid Name</string>
+    <string name="error_cant_be_less_than_1">Cannot be Less Than 1</string>
+    <string name="error_cannot_be_greater_than_total">Cannot be greater than Total Amount</string>
+    <string name="error_select_date">Select Date</string>
+
+    <!-- Values -->
+    <string name="enter_number">Enter Your 10 Digit Mobile Number</string>
+    <string name="button_getotp">Get OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="button_verify">Verify</string>
+
+    <!-- Edit List and Add Item Dialogs -->
+    <string name="positive_button_add_list_item">Add item</string>
+    <string name="positive_button_edit_item">Edit name</string>
+    <string name="negative_button_cancel">Cancel</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--Botttom Navigation Menu-->
+    <string name="title_stock">Stock</string>
+    <string name="title_order">Order</string>
+    <string name="title_debts">Debts</string>
+    <string name="title_account">Account</string>
+    <string name="title_order_number">Order #</string>
+    <string name="action_edit">Edit</string>
+
+    <!--Order Details Label -->
+    <string name="label_bill_number">Bill Number</string>
+    <string name="label_bill_date">Bill Date</string>
+    <string name="label_customer_name">Customer Name</string>
+    <string name="label_customer_address">Customer Address</string>
+    <string name="label_contact_number">Contact Number</string>
+    <string name="label_model_name">Model</string>
+    <string name="label_variant">Variant</string>
+    <string name="label_quantity">Quantity</string>
+    <string name="label_total_amount">Total Amount</string>
+    <string name="label_advance">Advance</string>
+    <string name="label_due_amount">Due Amount</string>
+    <string name="label_delivery_date">Delivery Date</string>
+    <string name="label_order_status">Status</string>
+    <string name="action_save">Save</string>
+    <string name="label_qty">Qty: </string>
+    <string name="button_confirm">Confirm</string>
+
+    <!--All alert messages-->
+    <string name="alert_remove">Remove</string>
+    <string name="alert_are_u_sure_remove_msg">Are you sure you want to remove</string>
+    <string name="alert_remove_note">Remove Note</string>
+    <string name="alert_are_u_sure_remove_note">Are you sure you want to remove this note ?</string>
+    <string name="alert_remove_order">Remove Order#</string>
+    <string name="alert_are_u_sure_remove_order">Are you sure you want to remove this order ?</string>
+    <string name="alert_change_order_status">Change order Status</string>
+    <string name="alert_are_u_sure_status_completed">Are you sure this order is completed ?</string>
+    <string name="alert_remove_item">Remove Item</string>
+    <string name="alert_are_u_sure_remove_item">Are you sure you want to remove item ?</string>
+
+    <string name="label_total">Total: </string>
+    <string name="label_last_updated">Last Updated On: </string>
+    <string name="toast_saved">Saved</string>
+    <string name="toast_updated">Updated</string>
+    <string name="action_add_price">Add Price</string>
+    <string name="hint_select_variant_name">Select Variant</string>
+    <string name="hint_add_price">Price</string>
+    <string name="hint_add_shop_name">Shop Name</string>
+    <string name="positive_button_add">Add</string>
+    <string name="toast_no_price_added">No Price Added</string>
+    <string name="positive_button_edit">Edit</string>
+    <string name="alert_remove_price">Remove Price</string>
+    <string name="alert_are_u_sure_remove_price">Are you sure you want to remove %s price?</string>
+    <string name="toast_fill_all_detail">Fill All Detail</string>
+    <string name="action_copy">Copy</string>
+    <string name="alert_are_u_sure_copy_price">Are you sure you want to copy in %s</string>
+    <string name="alert_copy_price">Copy</string>
+    <string name="hint_owner_name">Owner Name</string>
+    <string name="button_submit">Submit</string>
+    <string name="hint_shop_name">Shop Name</string>
+    <string name="hint_enter_otp">Enter OTP</string>
+    <string name="button_get_otp">Get OTP</string>
+    <string name="hint_enter_phone_number">Enter Phone Number</string>
+    <string name="enter_10_digit_mobile_number">Enter Your 10 digit Mobile Number</string>
+    <string name="main_notification_channel_name">Advance Order</string>
+    <string name="alert_share">Share</string>
+    <string name="alert_are_u_sure_share_brand">Are you sure you want to share with</string>
+
+    <string-array name="monthName">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

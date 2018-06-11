@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_stock"
+        android:icon="@drawable/ic_store_black_24dp"
+        android:title="@string/title_stock" />
+
+    <item
+        android:id="@+id/navigation_order"
+        android:icon="@drawable/ic_local_play_black_24dp"
+        android:title="@string/title_order" />
+
+    <!--<item
+        android:id="@+id/navigation_debts"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_debts" />-->
+
+    <item
+        android:id="@+id/navigation_accounts"
+        android:icon="@drawable/ic_account_balance_black_24dp"
+        android:title="@string/title_account" />
+
+</menu>

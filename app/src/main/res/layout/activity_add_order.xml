@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".order.AddOrder">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp">
+
+        <EditText
+            android:id="@+id/et_order_booking_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:focusable="false"
+            android:hint="@string/hint_order_detail_date"
+            android:inputType="date"
+            android:longClickable="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_order_bill_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:hint="@string/hint_order_detail_bill_number"
+            android:inputType="phone"
+            app:layout_constraintStart_toStartOf="@+id/et_order_booking_date"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_booking_date" />
+
+        <EditText
+            android:id="@+id/et_order_customer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:hint="@string/hint_order_detail_customer_name"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="@+id/et_order_bill_number"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_bill_number" />
+
+        <EditText
+            android:id="@+id/et_order_customer_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:hint="@string/hint_order_detail_customer_address"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="@+id/et_order_customer_name"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_customer_name" />
+
+        <EditText
+            android:id="@+id/et_order_customer_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:hint="@string/hint_order_detail_phone_number"
+            android:inputType="number"
+            android:maxLength="10"
+            app:layout_constraintStart_toStartOf="@+id/et_order_customer_address"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_customer_address" />
+
+        <EditText
+            android:id="@+id/et_order_model_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:hint="@string/hint_order_detail_model"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="@+id/et_order_customer_phone_number"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_customer_phone_number" />
+
+        <EditText
+            android:id="@+id/et_order_variant"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:hint="@string/hint_order_detail_variant"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="@+id/et_order_model_name"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_model_name" />
+
+        <EditText
+            android:id="@+id/et_order_quantity"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:hint="@string/hint_order_detail_quantity"
+            android:longClickable="false"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/et_order_model_name"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_model_name" />
+
+        <EditText
+            android:id="@+id/et_order_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:hint="@string/hint_order_detail_total_amount"
+            android:longClickable="false"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/et_order_quantity"
+            app:layout_constraintStart_toStartOf="@+id/et_order_variant"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_variant" />
+
+        <EditText
+            android:id="@+id/et_order_advance_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:hint="@string/hint_order_detail_advance"
+            android:longClickable="false"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="@+id/et_order_amount"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_amount" />
+
+        <EditText
+            android:id="@+id/et_order_delivery_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/order_detail"
+            android:focusable="false"
+            android:hint="@string/hint_order_detail_delivery_date"
+            android:inputType="phone"
+            android:longClickable="false"
+            app:layout_constraintStart_toStartOf="@+id/et_order_advance_amount"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_advance_amount" />
+
+        <Button
+            android:id="@+id/bt_order_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/confirm_background"
+            android:text="@string/button_confirm"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/et_order_delivery_date"
+            app:layout_constraintTop_toBottomOf="@+id/et_order_delivery_date" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
